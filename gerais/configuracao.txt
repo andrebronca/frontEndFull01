@@ -1,0 +1,19 @@
+Para mostrar a barra de ferramentas no topo do Sublime:
+1) Tecle Alt, isso vai mostrar o menu. Pra deixar ele sempre visível, vá em View > Show menu.
+2) Geralmente os softwares usam a tecla Alt pra mostrar/esconder o menu.
+3) Também é possível via comando. Tecle Ctrl + Shift + P, digite menu e aparereça uma opção dizendo View: Toggle menu, clique nesta opção.
+
+Para mostrar a sidebar esquerda Sublime para que o comando CTRL + K B funcione:
+
+Crie primeiro uma pasta onde você guardará todos os seus projetos e códigos, e após isso abra essa pasta indo em File > Open Folder lá no seu sublime, após isso esse comando já estará funcionando.
+Você pode criar um novo arquivo com o comando CTRL + N
+Para abrir um arquivo já criado vá em File > Open File
+Para abrir uma pasta já criada vá em File > Open Foder
+Para criar uma pasta vá em File > New Folder
+Para criar um arquivo vá em File > New File
+
+Consulte outros atalhos usados no Sublime: http://leia.aprendendosublimetext.com/principais-atalhos.html
+
+Caso surja algum erro na hora de salvar o arquivo de preferences do sublime basta resetar ele conforme ensinado na aula: https://cursos.dankicode.com/campus/curso-front-end-completo/resetando-configuracoes-do-editor-bonus
+
+Você pode usar editor de códigos de sua preferência, não precisa ser o Sublime, pode ser o Visual Studio Code ou outros
