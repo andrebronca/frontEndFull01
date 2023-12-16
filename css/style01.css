@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+h1 {
+    /* atribui a todos os h1 */
+    color:blue;
+}
+/* h1 tem que estar dentro de elemento com o id: div1 */
+#div1 > h1 {
+    /* por ser identificador, aplica-se apenas ao
+    elemento que possui esse id.
+    */
+    color: red;
+}
+.div2 h1 {
+    /* atributo class do elemento 
+    esse estilo pode ser duplicado em 
+    um elemento html, pois usa o atributo class
+    */
+    color: yellow;
+}
