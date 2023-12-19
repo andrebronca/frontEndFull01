@@ -1,0 +1,35 @@
+*{
+    /* todos os elementos da página, reset dos espaços
+    que o navegador adiciona */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.artigo{
+    width: 1280px;
+    margin: 40px auto;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(224, 226, 227);
+}
+
+.artigo h1 {
+    color: #069;
+    font-size: 23px;
+    font-family: Tahoma;
+    font-style: normal;
+    font-variant: small-caps;
+}
+
+.artigo p {
+    color: #3a3838;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 18px; /*menor que 14, o texto fica sobreposto */
+    text-align: left;
+}
