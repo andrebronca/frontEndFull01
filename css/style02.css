@@ -1,0 +1,7 @@
+*{
+    /* todos os elementos da página, reset dos espaços
+    que o navegador adiciona */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
