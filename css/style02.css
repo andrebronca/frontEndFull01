@@ -5,3 +5,47 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.menu {
+    /*display: block; exibição padrão da div */
+    width: 900px;
+    /*background-color: red; */
+    background-color: rgb(46, 48, 50);
+    margin: 0 auto; /* centraliza o elemento com a classe .menu (cima e baixo: 0, esquerda e direita: auto)*/
+    text-align: center; /* centraliza o conteúdo dentro do elemento */
+    padding: 8px 0;
+}
+
+div.menu {
+    /* um elemento div com uma classe menu.
+    por ser mais específica, irá sobrescrever
+    onde só está configurado a classe: .menu
+    */
+    width: 100%;
+}
+
+.menu > a {
+    /* apenas os elementos links dentro do elemento
+    com classe .menu
+    */
+    color: red;
+}
+
+.menu a {
+    /* o nível de precedência é o mesmo que o de cima,
+    então esse atributo irá sobrescrever o anterior.
+    */
+    text-decoration: none;
+    font-size: 20px;
+    color: orange;
+    margin: 0 10px;
+    /* definindo borda de forma sequencial
+    border-left: 1px;
+    border-top: 1px;
+    border-right: 1px;
+    border-bottom: 1px;
+    border-width: 1px;
+    border-color: red;
+    border-style: solid;
+    */
+}
